@@ -1,0 +1,27 @@
+.contenedorFooter{
+
+    background-color: rgb(73 51 130);
+}
+
+
+.divi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 50px;
+}
+
+.divi p {
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.pepe{
+
+    padding-left: 20px;
+
+    border-left: solid 1px rgba(255, 255, 255, 0.55);
+}

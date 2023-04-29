@@ -1,0 +1,61 @@
+.contenedorPi{
+
+    background-color: rgb(49 36 80);
+
+    padding: 40px 70px;
+    margin: 0 140px;
+}
+
+
+.dibidibadidibu h1{
+
+
+    border: 2px solid;
+    border-image: linear-gradient(to right, #5e42a6, #b74e91) 1;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+    padding-bottom: 20px;
+
+    font-size: 49px;
+
+}
+
+.dibidibadidibu span img{
+
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.dibidibadidibu p{
+
+    margin: 0 0 2em 0;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 19px;
+}
+
+/*-------------------------------ULs-----------------------------*/
+.contUl{
+
+    padding: 0 0 20px 0;
+
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+}
+
+
+.li {
+
+    list-style: none;
+    color: #ffa4de;
+    margin: 0 0 5px 0;
+
+    font-size: 19px;
+}
+
+.ulala{
+
+    padding: 0 0 0 20px;
+}

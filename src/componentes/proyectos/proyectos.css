@@ -1,0 +1,96 @@
+/*-----------------------contenedor PI---------------------------*/
+.contProy{
+
+    display: flex;
+    /* border: solid 1px rgb(238, 187, 187); */
+    background-color: rgb(80 82 181);
+    width: 100%;
+    margin: 0;
+    height: 390px;
+}
+/*-----------------------contenedor PF-----------------------------*/
+.contProy2{
+
+    display: flex;
+    /* border: solid 1px rgb(238, 187, 187); */
+    background-color: rgb(76 78 172);
+    width: 100%;
+    height: 390px;
+    margin: 0;
+}
+
+/*-----------------TAG <img />-----------------------*/
+.imagen{
+    
+    /* border-radius: 0.25em; */
+
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+      
+}
+
+.contenedorProyectos img {
+
+    /* background-image: url(/src/images/pic01.png); */
+    background-position: center center;
+    width: 400px;
+    height: 390px;
+    margin: 0;
+    padding: 0;
+
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.contenedorProyectos img:hover{
+
+    transform: scale(1.2);
+    transition: 0.5s;
+} 
+
+/*--------------------------contenedor Texto--------------------------------*/
+.contenedorTexto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    padding-left: 60px;
+}
+
+.contenedorTexto h2{
+
+    font-size: 1.90em;
+
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 0.5em 0;
+}
+
+.contenedorProyectos p{
+
+    color: rgba(255, 255, 255, 0.55);
+
+}
+
+/*--------------------boton--------------------------*/
+.btnVerMas{
+
+    margin-top: 20px;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px 50px;
+    color: #ffff;
+    font-size: 12.4px;
+    transition: 0.5s;
+
+}
+
+.btnVerMas:hover{
+
+    border: solid 1px rgba(255, 255, 255, 0.55);
+    color: #ffff;
+    transition: 0.5s;
+}
