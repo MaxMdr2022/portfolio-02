@@ -73,9 +73,9 @@
 
 /*---------------------------------------------------------*/
 
-#name{
+#name, #email{
 
-    height: 2.75em;
+    height: 1.75em;
     background: rgba(255, 255, 255, 0.05);
 
     width: auto;
@@ -89,9 +89,9 @@
     padding: 0.75em 1em;
 }
 
-#email{
+/* #email{
 
-    height: 2.75em;
+    height: 1.75em;
     background: rgba(255, 255, 255, 0.05);
 
     width: auto;
@@ -102,7 +102,7 @@
 
     margin-top: 15px;
     padding: 0.75em 1em;
-}
+} */
 
 #message{
 
@@ -202,13 +202,68 @@
 
 /*---------------------------------------------------------*/
 
+.icono{
+
+    font-size: 20px;
+    padding-left: 5px;
+    color:rgba(255, 255, 255, 0.55) ;
+}
+
+.icono:hover{
+
+    color:rgba(255, 255, 255, 0.749) ;
+}
+
+.iconoIn{
+
+    font-size: 20px;
+    padding-left: 15px;
+    color:rgba(255, 255, 255, 0.55) ;
+
+}
+
+.iconoIn:hover{
+
+    color:rgba(255, 255, 255, 0.749) ;
+}
 
 
+/*--------------------RESPONSIVE-----------------------------*/
 
+@media ( max-width: 980px ){
 
+    .contenedorForm{
 
+        display: flex;
+        flex-direction: column;
 
+        padding: 80px 50px 60px 50px;
 
+        width: auto;
+    }
+
+    .formForm{
+
+        width: 100%;
+    }
+
+    .btnEnviar{
+
+        font-size: 15px;
+    }
+
+    .contenedorRedes{
+
+        padding: 60px 10px 20px 10px;
+    }
+    .contRedesDiv{
+
+        border-top: solid 1px  #765eb3;
+        border-left: none;
+        padding: 40px 0 0 0;
+        width: auto;
+    }
+}
 
 
 

@@ -1,5 +1,9 @@
 import "./formulario.css"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+
 const Formulario = ()=> {
 
     return (
@@ -56,7 +60,7 @@ const Formulario = ()=> {
                 <div className="contRedesDiv">
 
                     <h3>Email</h3>
-                    <a href="mailto:maxi_meder94@hotmail.com">Click para contactar por email</a>
+                    <a href="mailto:maxi_meder94@hotmail.com"><FontAwesomeIcon className="icono" icon={faEnvelope} /></a>
                 
                 
                 
@@ -64,8 +68,8 @@ const Formulario = ()=> {
                     
                     {/*<a href="https://twitter.com/home" ><span >Twitter</span></a>*/}
                     
-                    <a href="https://github.com/MaxMdr2022" ><span >GitHub</span></a>
-                    <a href="https://www.linkedin.com/in/maximiliano-meder-618566258/" ><span >LinkedIn</span></a>
+                    <a href="https://github.com/MaxMdr2022" ><span ><FontAwesomeIcon className="icono" icon={faGithub} /></span></a>
+                    <a href="https://www.linkedin.com/in/maximiliano-meder-618566258/" ><span ><FontAwesomeIcon className="iconoIn" icon={faLinkedinIn} /></span></a>
 
                 </div>
                         
