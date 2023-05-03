@@ -2,7 +2,7 @@
 import piimg from "../../images/pic01.png"
 import pfimg from "../../images/pic02.png"
 import "./proyectos.css"
-
+import { Link } from "react-router-dom"
 
 const  Proyectos = () => {
 
@@ -13,7 +13,7 @@ const  Proyectos = () => {
             <section >
                 <div className="contProy">
 
-                    <a href="/proyecto-food" className="imagen"><img src={piimg} alt="" data-position="top center"  /></a>
+                    <Link to={"/proyecto-food"}className="imagen"><img src={piimg} alt="" data-position="top center"  /></Link>
                     
                     <div className="contenedorTexto">
                         <h2>Proyecto Individual Food App</h2>
