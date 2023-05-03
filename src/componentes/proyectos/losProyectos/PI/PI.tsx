@@ -82,7 +82,7 @@ const PI = ()=>{
                             
                         </ul>
                     
-                        <p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://pi-food-jwve.vercel.app/">AQUÍ</a>.<br></br><span>Y si le interesa ver el código puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/PI-Food">AQUÍ</a>.
+                        <p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://pi-food-jwve.vercel.app/" target="_blank">AQUÍ</a>.<br></br><span>Y si le interesa ver el código puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/PI-Food">AQUÍ</a>.
                         </span></p>
 
 
