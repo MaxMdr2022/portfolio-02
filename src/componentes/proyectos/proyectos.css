@@ -94,3 +94,26 @@
     color: #ffff;
     transition: 0.5s;
 }
+
+/*-----------------RESPONSIVE--------------------------*/
+
+@media (max-width: 980px) {
+
+    .contProy, .contProy2{
+
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imagen img{
+
+        width: 100%;
+        height: 300px;
+    }
+
+    .contenedorTexto{
+
+        padding: 50px 10px 50px 50px;
+    }
+}
