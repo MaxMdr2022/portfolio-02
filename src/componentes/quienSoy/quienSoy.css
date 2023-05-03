@@ -40,3 +40,24 @@
 .contenedorQienSoy h4{
     color: #ffa4de;
 }
+
+.a{
+
+    color: #ffffff;
+}
+
+.a:hover{
+
+    color:rgba(255, 255, 255, 0.749) ;
+}
+
+
+/*--------------------RESPONSIVE-----------------------------*/
+
+/* @media ( max-width: 980px){
+
+    .contenedorQienSoy{
+
+        padding: 0;
+    }
+} */
