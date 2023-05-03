@@ -8,14 +8,21 @@ import imag04 from "../../../../images/pic0104.png"
 import imag05 from "../../../../images/pic0105.png"
 import imag06 from "../../../../images/pic0106.png"
 import imag07 from "../../../../images/pic0107.png"
+import ReactPlayer from "react-player"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faVideo } from "@fortawesome/free-solid-svg-icons"
+
 
 const PI = ()=>{
 
 
     return (
-        <div style={{backgroundColor: "rgb(49 36 80)"}}>
+        <div className="contProyecto" style={{backgroundColor: "rgb(49 36 80)"}}>
             
-            <Header />
+            
+            <Header ruta={"/eventix"}/>
+          
+            
 		
 			<div className="contenedorPi" >
 
@@ -25,7 +32,7 @@ const PI = ()=>{
 
                         <h1 >FOOD-APP</h1>
 
-                        <span ><img src={img01} alt="" /></span>
+                        <span ><img src={img01} alt="" className="imagen" /></span>
 
                         <p>
                             La FoodApp permite visualizar 9 recetas por paginas donde se muestran su imagen, su nombre, 
@@ -77,18 +84,35 @@ const PI = ()=>{
                     
                         <p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://pi-food-jwve.vercel.app/">AQUÍ</a>.<br></br><span>Y si le interesa ver el código puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/PI-Food">AQUÍ</a>.
                         </span></p>
+
+
+                        <h3>Video del Proyecto</h3>
+
+                        <div className="video">
+
+                            <ReactPlayer className="imagen" url={"https://vimeo.com/822731831?share=copy"} controls/>
+                        </div>
+
+
+                        <div className="video2">
+                            <p>Haciendo click en el icono puede visualizar un video del proyecto.</p>
+                            <a href="https://vimeo.com/822731831?share=copy"><FontAwesomeIcon  icon={faVideo}/></a>     
+
+                        </div>
+
+
                         <h3>Algunas imágenes del proyecto</h3>
                         
                         <p>Home:</p>
-                        <span ><img src={img02} alt="" /></span>
+                        <span ><img src={img02} alt="" className="imagen" /></span>
                         <p>Formulario para crear una receta:</p>
-                        <span ><img src={imag03} alt="" /></span>
-                        <span ><img src={imag04} alt="" /></span>
+                        <span ><img src={imag03} alt="" className="imagen" /></span>
+                        <span ><img src={imag04} alt="" className="imagen" /></span>
                         <p>Visualización de la receta creada en el Home:</p>
-                        <span ><img src={imag05} alt="" /></span>
+                        <span ><img src={imag05} alt="" className="imagen" /></span>
                         <p>Detalle de una receta:</p>
-                        <span ><img src={imag06} alt="" /></span>
-                        <span ><img src={imag07} alt="" /></span>
+                        <span ><img src={imag06} alt="" className="imagen"/></span>
+                        <span ><img src={imag07} alt="" className="imagen"/></span>
                     </div>
                 </section>
 
