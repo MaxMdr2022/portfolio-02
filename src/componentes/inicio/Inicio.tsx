@@ -6,11 +6,11 @@ import PiePag from "../piePag/Piepag"
 import {useRef} from "react"
 import "./inicio.css"
 
+ 
 function Inicio() {
 
   const ref = useRef <HTMLDivElement | null >(null)
   const ref2 = useRef <HTMLDivElement | null >(null)
-
   const ref3 = useRef <HTMLDivElement | null >(null)
 
 
