@@ -15,7 +15,7 @@
 .barraLateralDiv{
 
     position: fixed;
-    top: 45%;
+    top: 40%;
     /* background-color: aqua; */
     /* border: solid 1px white; */
     z-index: 1;
@@ -56,7 +56,7 @@
     align-items: center;
 
     background: none;
-    border-bottom: solid 1px #3c2c62;
+    border-bottom: solid 3px #3c2c62;
 
     border-radius: 0%;
 
@@ -67,14 +67,14 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    /* font-size: 12px; */
-    font-size: 0.6em;
+    font-size: 13px;
+    /* font-size: 0.6em; */
     letter-spacing: 0.25em;
     line-height: 1.75;
 
     padding: 1.35em 0;
 
-    transition:  .5s ease ;
+    /* transition:  .5s ease ; */
 }
 
 .btn:hover{
@@ -133,3 +133,66 @@
 
 
 
+/*--------------------------RESPONSIVE------------------------------*/
+
+@media (max-width: 1280px) {
+
+
+    .contenedor{
+
+        /* display: grid;
+        grid-template-columns: 18em 1fr; */
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorSideBar{
+
+        height: 60px;
+        width: 100%;
+        background-color: #312450;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .barraLateralDiv{
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        /* padding-top: 10px; */
+        padding-left: 0;
+
+    }
+
+    .contenedorBotones{
+    
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: none;
+    }
+
+    .btn{
+
+        font-size: 10px;
+    }
+
+
+}
+
+
+@media ( max-width: 980px){
+
+    .QuienSoyDiv{
+
+        padding: 120px 65px 20px 65px;
+    }
+}
