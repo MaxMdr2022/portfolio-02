@@ -1,4 +1,6 @@
 import "./piePag.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const PiePag = ()=> {
 
@@ -9,7 +11,7 @@ const PiePag = ()=> {
 				<div className="divi">
 					
                     <p>&copy; Maximiliano Meder. All rights reserved.</p>
-                    <p className="pepe">Design: <a href="https://github.com/MaxMdr2022/Portfolio">GitHub</a></p>
+                    <p className="pepe">Design: <a href="https://github.com/MaxMdr2022/portfolio-02"><FontAwesomeIcon icon={faGithub} className="iconPie"/></a></p>
 					
 				</div>
 			</footer>
