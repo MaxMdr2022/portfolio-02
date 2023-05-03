@@ -1,6 +1,13 @@
 import "./header.css"
+// import { Proyectos } from "../../tipado/types";
 
-const Header = () =>{
+
+interface Url {
+
+    ruta: string
+}
+
+const Header = ({ruta}:Url) =>{
 
     return (
 
@@ -12,7 +19,7 @@ const Header = () =>{
 				<nav className="navi">
 					
 					<a href="/">Home</a>
-				    <a href="/Eventix">Siguiente Proyecto</a>
+				    <a href={ruta}>Siguiente Proyecto</a>
 					
 				</nav>
             </div>
