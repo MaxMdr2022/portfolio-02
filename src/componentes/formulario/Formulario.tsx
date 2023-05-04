@@ -41,7 +41,7 @@ const Formulario = ()=> {
                             <div>
 
                                 {<input type="submit" value="Enviar" className="btnEnviar" />}
-                                <input type="hidden" name="_next" value="https://portfolio-maximiliano-meder.vercel.app/index.html"/>
+                                <input type="hidden" name="_next" value="https://portfolio-02-nine.vercel.app/"/>
                                 <input type="hidden" name="_captcha" value="false" />
 
                             </div>
