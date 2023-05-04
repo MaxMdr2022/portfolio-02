@@ -108,7 +108,7 @@ const PF = ()=> {
 
 						<div className="video2">
                             <p>Haciendo click en el icono puede visualizar un video del proyecto.</p>
-                            <a href="https://vimeo.com/822731831?share=copy" target="_blank"><FontAwesomeIcon  icon={faVideo}/></a>     
+                            <a href="https://vimeo.com/822725794?share=copy" target="_blank"><FontAwesomeIcon  icon={faVideo}/></a>     
 
                         </div>
 
