@@ -11,7 +11,6 @@ import imag07 from "../../../../images/pic0107.png"
 import ReactPlayer from "react-player"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faVideo } from "@fortawesome/free-solid-svg-icons"
-import { ScrollRestoration } from "react-router-dom"
 
 
 const PI = ()=>{
@@ -121,7 +120,6 @@ const PI = ()=>{
 
             <PiePag />
 
-            <ScrollRestoration />
         </div>
     )
 }
