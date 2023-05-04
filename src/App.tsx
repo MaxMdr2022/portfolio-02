@@ -3,14 +3,15 @@ import Inicio from "./componentes/inicio/Inicio"
 import PI from "./componentes/proyectos/losProyectos/PI/PI"
 import PF from "./componentes/proyectos/losProyectos/PF/PF"
 import ScrollToTop from './componentes/scrollToTop/scrollToTop.tsx'
-import { BrowserRouter } from "react-router-dom"
+// import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 
 function App() {
 
   return (
     <div>
       
-      <BrowserRouter>
+      <HashRouter>
       
         <ScrollToTop />
         <Routes>
@@ -21,7 +22,7 @@ function App() {
         </Routes>
         
       
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   )
