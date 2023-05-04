@@ -98,7 +98,7 @@ const PF = ()=> {
 							</div>
 						</ul>
 
-						<p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://eventix-2-0.vercel.app/">AQUI</a>.<br></br>  Y si le interesa ver el codigo puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/Eventix-2.0">AQUI</a>.</p>
+						<p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://eventix-2-0.vercel.app/" target="_blank">AQUI</a>.<br></br>  Y si le interesa ver el codigo puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/Eventix-2.0" target="_blank">AQUI</a>.</p>
 						
 						<h3>Video del Proyecto</h3>
                         <div className="video">
@@ -108,7 +108,7 @@ const PF = ()=> {
 
 						<div className="video2">
                             <p>Haciendo click en el icono puede visualizar un video del proyecto.</p>
-                            <a href="https://vimeo.com/822731831?share=copy"><FontAwesomeIcon  icon={faVideo}/></a>     
+                            <a href="https://vimeo.com/822731831?share=copy" target="_blank"><FontAwesomeIcon  icon={faVideo}/></a>     
 
                         </div>
 

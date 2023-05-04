@@ -1,4 +1,5 @@
 import "./header.css"
+import { Link } from "react-router-dom"
 // import { Proyectos } from "../../tipado/types";
 
 
@@ -18,8 +19,8 @@ const Header = ({ruta}:Url) =>{
 
 				<nav className="navi">
 					
-					<a href="/">Home</a>
-				    <a href={ruta}>Siguiente Proyecto</a>
+					<Link to={"/"}>Home</Link>
+				    <Link to={ruta}>Siguiente Proyecto</Link>
 					
 				</nav>
             </div>

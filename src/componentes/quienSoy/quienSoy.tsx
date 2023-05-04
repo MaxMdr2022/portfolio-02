@@ -89,8 +89,8 @@ export default function QuienSoy () {
 
 
 
-                        <p>Si te interesa conocer mas de mi y de mis proyectos, puedes ingrersar a mi  <a href="https://www.linkedin.com/in/maximiliano-meder-618566258/" className="a">LinkedIn</a><br />
-                        y a mi <a href="https://github.com/MaxMdr2022"  className="a" >GitHub</a>.  Mi <a href={CV} download="CV-Maximiliano-Meder" className="a">CV</a>.</p>
+                        <p>Si te interesa conocer mas de mi y de mis proyectos, puedes ingrersar a mi  <a href="https://www.linkedin.com/in/maximiliano-meder-618566258/" target="_blank" className="a">LinkedIn</a><br />
+                        y a mi <a href="https://github.com/MaxMdr2022" target="_blank" className="a" >GitHub</a>.  Mi <a href={CV} download="CV-Maximiliano-Meder" target="_blank" className="a">CV</a>.</p>
                       
                     </div>
                 </section>

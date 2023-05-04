@@ -82,7 +82,7 @@ const PI = ()=>{
                             
                         </ul>
                     
-                        <p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://pi-food-jwve.vercel.app/" target="_blank">AQUÍ</a>.<br></br><span>Y si le interesa ver el código puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/PI-Food">AQUÍ</a>.
+                        <p>Si le interesa conocer mas de la App puede ingresar haciendo click <a href="https://pi-food-jwve.vercel.app/" target="_blank">AQUÍ</a>.<br></br><span>Y si le interesa ver el código puede ingresar haciendo click <a href="https://github.com/MaxMdr2022/PI-Food" target="_blank">AQUÍ</a>.
                         </span></p>
 
 
@@ -96,7 +96,7 @@ const PI = ()=>{
 
                         <div className="video2">
                             <p>Haciendo click en el icono puede visualizar un video del proyecto.</p>
-                            <a href="https://vimeo.com/822731831?share=copy"><FontAwesomeIcon  icon={faVideo}/></a>     
+                            <a href="https://vimeo.com/822731831?share=copy" target="_blank"><FontAwesomeIcon  icon={faVideo}/></a>     
 
                         </div>
 

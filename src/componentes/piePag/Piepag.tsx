@@ -11,7 +11,7 @@ const PiePag = ()=> {
 				<div className="divi">
 					
                     <p>&copy; Maximiliano Meder. All rights reserved.</p>
-                    <p className="pepe">Design: <a href="https://github.com/MaxMdr2022/portfolio-02"><FontAwesomeIcon icon={faGithub} className="iconPie"/></a></p>
+                    <p className="pepe">Design: <a href="https://github.com/MaxMdr2022/portfolio-02" target="_blank"><FontAwesomeIcon icon={faGithub} className="iconPie"/></a></p>
 					
 				</div>
 			</footer>
