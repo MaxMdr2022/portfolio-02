@@ -22,13 +22,13 @@
     gap: 20px;
 }
 
-.navi Link {
+.link {
 
     color: rgba(255, 255, 255, 0.35);
     transition: .5s ease;
 }
 
-.navi Link:hover{
+.link:hover{
 
     color:rgba(255, 255, 255, 0.55);
 

@@ -19,8 +19,8 @@ const Header = ({ruta}:Url) =>{
 
 				<nav className="navi">
 					
-					<Link to={"/"}>Home</Link>
-				    <Link to={ruta}>Siguiente Proyecto</Link>
+					<Link className="link" to={"/"}>Home</Link>
+				    <Link className="link" to={ruta}>Siguiente Proyecto</Link>
 					
 				</nav>
             </div>

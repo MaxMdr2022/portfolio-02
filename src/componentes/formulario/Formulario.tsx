@@ -18,7 +18,7 @@ const Formulario = ()=> {
                 
 
                 <section >
-                    <form action="https://formsubmit.co/26a4b04e94cbce697fd4de3bbe3fe440" method="POST">
+                    <form action="https://formsubmit.co/maxi_meder94@hotmail.com" method="POST">
 
                         <div className="contInputs">
 
