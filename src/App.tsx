@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       
+      <ScrollToTop />
       <Routes>
-        <ScrollToTop />
         <Route path="/" element={<Inicio />} />
         <Route path="/proyecto-food" element={<PI/>} />
         <Route path="/eventix" element={<PF/>}/>
