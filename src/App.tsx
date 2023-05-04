@@ -9,13 +9,13 @@ function App() {
     <div>
       
       <Routes>
-        <ScrollRestoration />
+        
         <Route path="/" element={<Inicio />} />
         <Route path="/proyecto-food" element={<PI/>} />
         <Route path="/eventix" element={<PF/>}/>
         
       </Routes>
-
+      <ScrollRestoration />
 
     </div>
   )
